@@ -1,0 +1,50 @@
+.Menu {
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    height: 90px;
+    width: 100vw;
+    position: fixed;
+    border-bottom: solid 2px;
+    background: rgba(168, 139, 139, 0.507);
+    border-color: rgba(250, 235, 215, 0.836);
+    display: flex;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    &__name {
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    &__mail {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+}
+
+.nav {
+    display: inline-block;
+    width: 100vw;
+    margin-left: 20%;
+}
+
+.ulflex {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}

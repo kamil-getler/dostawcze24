@@ -1,13 +1,16 @@
-@import "~normalize.css";
-
-@import "_variables";
-@import "modules/hello.scss";
-
-body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Akshar&family=Dancing+Script:wght@600&display=swap');
+        @import "~normalize.css";
+        @import "_variables";
+        @import "modules/Menu.scss";
+        @import "modules/Footer.scss";
+        @import "modules/Front.scss";
+        @import "modules/Content.scss";
+        @import "modules/Table.scss";
+        body {
+            background: $wtf;
+            color: #fff;
+            //display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
