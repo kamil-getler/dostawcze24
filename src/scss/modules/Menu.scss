@@ -10,7 +10,7 @@
     border-color: rgba(250, 235, 215, 0.836);
     display: flex;
     font-family: 'Akshar', sans-serif;
-    font-family: 'Dancing Script', cursive;
+    //font-family: 'Dancing Script', cursive;
     font-size: larger;
 }
 
@@ -38,6 +38,7 @@
 
 .ulflex {
     display: flex;
+    justify-content: center;
     list-style-type: none;
     flex-wrap: wrap;
     gap: 50px;
@@ -60,14 +61,6 @@ li a {
     color: white;
 }
 
-
-/* general styling */
-
-body {
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.25;
-}
-
 //menu
 .menu-icon-wrapper.m4 svg path {
     transition: stroke-dasharray 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -78,11 +71,7 @@ body {
 
 .m4 {
     width: 170px;
-    //margin-right: 100px;
-}
-
-body {
-    background-color: #4a6681;
+    margin-right: 100px;
 }
 
 .container {
@@ -114,7 +103,7 @@ body {
 }
 
 .menu-icon-wrapper svg path {
-    stroke: #5b6353;
+    stroke: #e5e7e2;
     stroke-width: 40px;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -170,10 +159,23 @@ button:active {
     //position: absolute;
     margin-right: 2px;
     width: 100vw;
-    height: 30vh;
-    background: rgb(167, 104, 104);
+    background: rgb(163, 107, 107);
     border-style: solid;
     border-color: white;
+}
+
+.active {
+    display: none;
+    position: absolute;
+    //z-index: -1;
+    //transform: translateY(-260px);
+    //transition: transform .4s .1s;
+}
+
+.kontakt {
+    font-size: 2rem;
+    color: rgb(139, 58, 37);
+    cursor: zoom-in;
 }
 
 @media screen and (max-width: 1062px) {
@@ -182,8 +184,8 @@ button:active {
     }
 }
 
-@media screen and (min-width: 1062px) {
-    #menu-icon-wrapper-4 {
-        display: none;
-    }
-}
+// @media screen and (min-width: 1062px) {
+//     #menu-icon-wrapper-4 {
+//         display: none;
+//     }
+// }

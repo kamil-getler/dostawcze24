@@ -1,11 +1,36 @@
-.Front {
-    //position: relative;
-    display: block;
-    margin-top: -30vw;
-    overflow: hidden;
-    height: 70vw;
-    width: 100vw;
-    background-image: url(https://images.pexels.com/photos/4620555/pexels-photo-4620555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    .Front {
+        position: relative;
+        display: block;
+        margin-top: -30vw;
+        overflow: hidden;
+        height: 70vw;
+        width: 100vw;
+        background-image: url(https://images.pexels.com/photos/4620555/pexels-photo-4620555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .box__front {
+        //display: inline-block;
+        margin-top: 35vw;
+        // width: 200px;
+        // height: 200px;
+        background: rgba(63, 79, 109, 0.671);
+        //z-index: 100;
+    }
+    
+    .ulflex__v3 {
+        margin-left: 30px;
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        //flex-wrap: wrap;
+        gap: 25px;
+        padding-top: 15px;
+        padding-left: 4px;
+    }
+    
+    .active__loka {
+        display: none;
+        margin-top: 35vw;
+    }
