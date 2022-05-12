@@ -12,7 +12,7 @@
     
     .box__front {
         //display: inline-block;
-        margin-top: 35vw;
+        margin-top: 38vw;
         // width: 200px;
         // height: 200px;
         background: rgba(63, 79, 109, 0.671);
@@ -33,4 +33,10 @@
     .active__loka {
         display: none;
         margin-top: 35vw;
+    }
+    
+    @media screen and (max-width: 1062px) {
+        .box__front {
+            display: none;
+        }
     }
