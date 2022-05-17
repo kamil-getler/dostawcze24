@@ -5,7 +5,7 @@
     
     .ul__style {
         font-size: 0.8rem;
-        color: #e9e6e3;
+        color: #99693c;
         list-style: inside;
     }
     
@@ -13,7 +13,7 @@
         margin: 2%;
         //height: 250px;
         //width: 90vw;
-        background: rgba(119, 96, 65, 0.096);
+        background: rgba(228, 210, 187, 0.959);
         display: grid;
         grid-template-columns: minmax(250px, 300px) 5px minmax(0, 1fr);
         &__border {
@@ -24,8 +24,10 @@
             }
         }
         &__image {
+            display: flex;
+            justify-content: center;
             // min-width: 200px;
-            margin-left: 25%;
+            //margin-left: 25%;
             ////test!!!!!!!!!!!!!!!!!!!
             //background: red;
         }

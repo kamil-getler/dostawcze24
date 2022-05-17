@@ -11,8 +11,10 @@
     }
     
     .box__front {
-        //display: inline-block;
+        display: flex;
         margin-top: 38vw;
+        justify-content: center;
+        gap: 10vw;
         // width: 200px;
         // height: 200px;
         background: rgba(63, 79, 109, 0.671);
@@ -35,6 +37,10 @@
         margin-top: 35vw;
     }
     
+    // .GoogleMaps {
+    //     margin-left: 1%;
+    //     padding: 4%;
+    // }
     @media screen and (max-width: 1062px) {
         .box__front {
             display: none;

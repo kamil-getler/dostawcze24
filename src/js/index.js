@@ -12,6 +12,7 @@ const menuHamburger4 = document.getElementById('menu-icon-wrapper-4');
 
 const activehamburger = document.getElementById('sidebar__active');
 const activelokalizacja = document.getElementById('active__lokalizacja');
+const activekontakt = document.getElementById('active__kontakt');
 
 menuHamburger4.addEventListener('click', () => {
     menuHamburger4.classList.toggle('open');
@@ -22,4 +23,10 @@ const activelok = document.getElementById('nav__active');
 activelokalizacja.addEventListener('click', () => {
 
     activelok.classList.toggle('active__loka')
+}, false);
+
+const activkontakt = document.getElementById('nav__kontakt');
+activekontakt.addEventListener('click', () => {
+
+    activkontakt.classList.toggle('active__loka')
 }, false);
