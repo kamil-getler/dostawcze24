@@ -184,6 +184,12 @@ button:active {
     }
 }
 
+@media screen and (min-width: 1334px) {
+    .hamburger {
+        display: none;
+    }
+}
+
 // @media screen and (min-width: 1062px) {
 //     #menu-icon-wrapper-4 {
 //         display: none;

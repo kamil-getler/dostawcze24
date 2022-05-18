@@ -1,0 +1,14 @@
+.Footer {
+    display: none;
+}
+
+@media screen and (max-width: 1334px) {
+    .Footer {
+        //display: flex;
+        display: inline-block;
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
